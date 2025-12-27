@@ -250,5 +250,105 @@
 			"type1": "bug",
 			"type2": "flying"
 		},
+		{
+			"name": "Buizel",
+			"type1": "water",
+			"type2": null
+		},
+		{
+			"name": "Floatzel",
+			"type1": "water",
+			"type2": null
+		},
+		{
+			"name": "Wooper (Paldea)",
+			"type1": "poison",
+			"type2": "ground"
+		},
+		{
+			"name": "Clodsire",
+			"type1": "poison",
+			"type2": "ground"
+		},
+		{
+			"name": "Psyduck",
+			"type1": "water",
+			"type2": null
+		},
+		{
+			"name": "Golduck",
+			"type1": "water",
+			"type2": null
+		},
+		{
+			"name": "Chewtle",
+			"type1": "water",
+			"type2": null
+		},
+		{
+			"name": "Drednaw",
+			"type1": "water",
+			"type2": "rock"
+		},
+		{
+			"name": "Igglybuff",
+			"type1": "normal",
+			"type2": "fairy"
+		},
+		{
+			"name": "Jigglypuff",
+			"type1": "normal",
+			"type2": "fairy"
+		},
+		{
+			"name": "Wigglytuff",
+			"type1": "normal",
+			"type2": "fairy"
+		},
+		{
+			"name": "Ralts",
+			"type1": "psychic",
+			"type2": "fairy"
+		},
+		{
+			"name": "Kirlia",
+			"type1": "psychic",
+			"type2": "fairy"
+		},
+		{
+			"name": "Gardevoir",
+			"type1": "psychic",
+			"type2": "fairy"
+		},
+		{
+			"name": "Gallade",
+			"type1": "psychic",
+			"type2": "fighting"
+		},
+		{
+			"name": "Drowzee",
+			"type1": "psychic",
+			"type2": null
+		},
+		{
+			"name": "Hypno",
+			"type1": "psychic",
+			"type2": null
+		},
+		{
+			"name": "Gastly",
+			"type1": "ghost",
+			"type2": "poison"
+		},
+		{
+			"name": "Haunter",
+			"type1": "ghost",
+			"type2": "poison"
+		},
+		{
+			"name": "Gengar",
+			"type1": "ghost",
+			"type2": "poison"
+		},
 	]
 }
