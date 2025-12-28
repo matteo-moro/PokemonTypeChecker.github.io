@@ -1,354 +1,109 @@
 {
 	"pokemonlist": [
-		{
-			"name": "Sprigatito",
-			"type1": "grass",
-			"type2": null
-		},
-		{
-			"name": "Floragato",
-			"type1": "grass",
-			"type2": null
-		},
-		{
-			"name": "Meowscarada",
-			"type1": "grass",
-			"type2": "dark"
-		},
-		{
-			"name": "Fuecoco",
-			"type1": "fire",
-			"type2": null
-		},
-		{
-			"name": "Crocalor",
-			"type1": "fire",
-			"type2": null
-		},
-		{
-			"name": "Skeledirge",
-			"type1": "fire",
-			"type2": "ghost"
-		},
-		{
-			"name": "Quaxly",
-			"type1": "water",
-			"type2": null
-		},
-		{
-			"name": "Quaxwell",
-			"type1": "water",
-			"type2": null
-		},
-		{
-			"name": "Quaquaval",
-			"type1": "water",
-			"type2": "fighting"
-		},
-		{
-			"name": "Lechonk",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Oinkologne",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Tarountula",
-			"type1": "bug",
-			"type2": null
-		},
-		{
-			"name": "Spidops",
-			"type1": "bug",
-			"type2": null
-		},
-		{
-			"name": "Nymble",
-			"type1": "bug",
-			"type2": null
-		},
-		{
-			"name": "Lokix",
-			"type1": "bug",
-			"type2": "dark"
-		},
-		{
-			"name": "Hoppip",
-			"type1": "grass",
-			"type2": "flying"
-		},
-		{
-			"name": "Skiploom",
-			"type1": "grass",
-			"type2": "flying"
-		},
-		{
-			"name": "Jumpluff",
-			"type1": "grass",
-			"type2": "flying"
-		},
-		{
-			"name": "Fletchling",
-			"type1": "normal",
-			"type2": "flying"
-		},
-		{
-			"name": "Fletchinder",
-			"type1": "fire",
-			"type2": "flying"
-		},
-		{
-			"name": "Talonflame",
-			"type1": "fire",
-			"type2": "flying"
-		},
-		{
-			"name": "Pawmi",
-			"type1": "electric",
-			"type2": null
-		},
-		{
-			"name": "Pawmo",
-			"type1": "electric",
-			"type2": "fighting"
-		},
-		{
-			"name": "Pawmot",
-			"type1": "electric",
-			"type2": "fighting"
-		},
-		{
-			"name": "Houndour",
-			"type1": "dark",
-			"type2": "fire"
-		},
-		{
-			"name": "Houndoom",
-			"type1": "dark",
-			"type2": "fire"
-		},
-		{
-			"name": "Yungoos",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Gumshoos",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Skwovet",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Greedent",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Sunkern",
-			"type1": "grass",
-			"type2": null
-		},
-		{
-			"name": "Sunflora",
-			"type1": "grass",
-			"type2": null
-		},
-		{
-			"name": "Kricketot",
-			"type1": "bug",
-			"type2": null
-		},
-		{
-			"name": "Kricketune",
-			"type1": "bug",
-			"type2": null
-		},
-		{
-			"name": "Scatterbug",
-			"type1": "bug"
-			"type2": null
-		},
-		{
-			"name": "Spewpa",
-			"type1": "bug",
-			"type2": null
-		},
-		{
-			"name": "Vivillon",
-			"type1": "bug",
-			"type2": "flying"
-		},
-		{
-			"name": "Combee",
-			"type1": "bug",
-			"type2": "flying"
-		},
-		{
-			"name": "Vespiqueen",
-			"type1": "bug",
-			"type2": "flying"
-		},
-		{
-			"name": "Rookidee",
-			"type1": "flying",
-			"type2": null
-		},
-		{
-			"name": "Corvisquire",
-			"type1": "flying",
-			"type2": null
-		},
-		{
-			"name": "Corviknight",
-			"type1": "flying",
-			"type2": "steel"
-		},
-		{
-			"name": "Happiny",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Chansey",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Blissey",
-			"type1": "normal",
-			"type2": null
-		},
-		{
-			"name": "Azurill",
-			"type1": "normal",
-			"type2": "fairy"
-		},
-		{
-			"name": "Marill",
-			"type1": "water",
-			"type2": "fairy"
-		},
-		{
-			"name": "Azumarill",
-			"type1": "water",
-			"type2": "fairy"
-		},
-		{
-			"name": "Surskit",
-			"type1": "bug",
-			"type2": "water"
-		},
-		{
-			"name": "Masquerain",
-			"type1": "bug",
-			"type2": "flying"
-		},
-		{
-			"name": "Buizel",
-			"type1": "water",
-			"type2": null
-		},
-		{
-			"name": "Floatzel",
-			"type1": "water",
-			"type2": null
-		},
-		{
-			"name": "Wooper (Paldea)",
-			"type1": "poison",
-			"type2": "ground"
-		},
-		{
-			"name": "Clodsire",
-			"type1": "poison",
-			"type2": "ground"
-		},
-		{
-			"name": "Psyduck",
-			"type1": "water",
-			"type2": null
-		},
-		{
-			"name": "Golduck",
-			"type1": "water",
-			"type2": null
-		},
-		{
-			"name": "Chewtle",
-			"type1": "water",
-			"type2": null
-		},
-		{
-			"name": "Drednaw",
-			"type1": "water",
-			"type2": "rock"
-		},
-		{
-			"name": "Igglybuff",
-			"type1": "normal",
-			"type2": "fairy"
-		},
-		{
-			"name": "Jigglypuff",
-			"type1": "normal",
-			"type2": "fairy"
-		},
-		{
-			"name": "Wigglytuff",
-			"type1": "normal",
-			"type2": "fairy"
-		},
-		{
-			"name": "Ralts",
-			"type1": "psychic",
-			"type2": "fairy"
-		},
-		{
-			"name": "Kirlia",
-			"type1": "psychic",
-			"type2": "fairy"
-		},
-		{
-			"name": "Gardevoir",
-			"type1": "psychic",
-			"type2": "fairy"
-		},
-		{
-			"name": "Gallade",
-			"type1": "psychic",
-			"type2": "fighting"
-		},
-		{
-			"name": "Drowzee",
-			"type1": "psychic",
-			"type2": null
-		},
-		{
-			"name": "Hypno",
-			"type1": "psychic",
-			"type2": null
-		},
-		{
-			"name": "Gastly",
-			"type1": "ghost",
-			"type2": "poison"
-		},
-		{
-			"name": "Haunter",
-			"type1": "ghost",
-			"type2": "poison"
-		},
-		{
-			"name": "Gengar",
-			"type1": "ghost",
-			"type2": "poison"
-		},
+		{"name": "Sprigatito","type1": "grass","type2": null},
+		{"name": "Floragato","type1": "grass","type2": null},
+		{"name": "Meowscarada","type1": "grass","type2": "dark"},
+		{"name": "Fuecoco","type1": "fire","type2": null},
+		{"name": "Crocalor","type1": "fire","type2": null},
+		{"name": "Skeledirge","type1": "fire","type2": "ghost"},
+		{"name": "Quaxly","type1": "water","type2": null},
+		{"name": "Quaxwell","type1": "water","type2": null},
+		{"name": "Quaquaval","type1": "water","type2": "fighting"},
+		{"name": "Lechonk","type1": "normal","type2": null},
+		{"name": "Oinkologne","type1": "normal","type2": null},
+		{"name": "Tarountula","type1": "bug","type2": null},
+		{"name": "Spidops","type1": "bug","type2": null},
+		{"name": "Nymble","type1": "bug","type2": null},
+		{"name": "Lokix","type1": "bug","type2": "dark"},
+		{"name": "Hoppip","type1": "grass","type2": "flying"},
+		{"name": "Skiploom","type1": "grass","type2": "flying"},
+		{"name": "Jumpluff","type1": "grass","type2": "flying"},
+		{"name": "Fletchling","type1": "normal","type2": "flying"},
+		{"name": "Fletchinder","type1": "fire","type2": "flying"},
+		{"name": "Talonflame","type1": "fire","type2": "flying"},
+		{"name": "Pawmi","type1": "electric","type2": null},
+		{"name": "Pawmo","type1": "electric","type2": "fighting"},
+		{"name": "Pawmot","type1": "electric","type2": "fighting"},
+		{"name": "Houndour","type1": "dark","type2": "fire"},
+		{"name": "Houndoom","type1": "dark","type2": "fire"},
+		{"name": "Yungoos","type1": "normal","type2": null},
+		{"name": "Gumshoos","type1": "normal","type2": null},
+		{"name": "Skwovet","type1": "normal","type2": null},
+		{"name": "Greedent","type1": "normal","type2": null},
+		{"name": "Sunkern","type1": "grass","type2": null},
+		{"name": "Sunflora","type1": "grass","type2": null},
+		{"name": "Kricketot","type1": "bug","type2": null},
+		{"name": "Kricketune","type1": "bug","type2": null},
+		{"name": "Scatterbug","type1": "bug""type2": null},
+		{"name": "Spewpa","type1": "bug","type2": null},
+		{"name": "Vivillon","type1": "bug","type2": "flying"},
+		{"name": "Combee","type1": "bug","type2": "flying"},
+		{"name": "Vespiqueen","type1": "bug","type2": "flying"},
+		{"name": "Rookidee","type1": "flying","type2": null},
+		{"name": "Corvisquire","type1": "flying","type2": null},
+		{"name": "Corviknight","type1": "flying","type2": "steel"},
+		{"name": "Happiny","type1": "normal","type2": null},
+		{"name": "Chansey","type1": "normal","type2": null},
+		{"name": "Blissey","type1": "normal","type2": null},
+		{"name": "Azurill","type1": "normal","type2": "fairy"},
+		{"name": "Marill","type1": "water","type2": "fairy"},
+		{"name": "Azumarill","type1": "water","type2": "fairy"},
+		{"name": "Surskit","type1": "bug","type2": "water"},
+		{"name": "Masquerain","type1": "bug","type2": "flying"},
+		{"name": "Buizel","type1": "water","type2": null},
+		{"name": "Floatzel","type1": "water","type2": null},
+		{"name": "Wooper (Paldea)","type1": "poison","type2": "ground"},
+		{"name": "Clodsire","type1": "poison","type2": "ground"},
+		{"name": "Psyduck","type1": "water","type2": null},
+		{"name": "Golduck","type1": "water","type2": null},
+		{"name": "Chewtle","type1": "water","type2": null},
+		{"name": "Drednaw","type1": "water","type2": "rock"},
+		{"name": "Igglybuff","type1": "normal","type2": "fairy"},
+		{"name": "Jigglypuff","type1": "normal","type2": "fairy"},
+		{"name": "Wigglytuff","type1": "normal","type2": "fairy"},
+		{"name": "Ralts","type1": "psychic","type2": "fairy"},
+		{"name": "Kirlia","type1": "psychic","type2": "fairy"},
+		{"name": "Gardevoir","type1": "psychic","type2": "fairy"},
+		{"name": "Gallade","type1": "psychic","type2": "fighting"},
+		{"name": "Drowzee","type1": "psychic","type2": null},
+		{"name": "Hypno","type1": "psychic","type2": null},
+		{"name": "Gastly","type1": "ghost","type2": "poison"},
+		{"name": "Haunter","type1": "ghost","type2": "poison"},
+		{"name": "Gengar","type1": "ghost","type2": "poison"},
+		{"name": "Tandemaus","type1": "normal","type2": null},
+		{"name": "Maushold","type1": "normal","type2": null},
+		{"name": "Pichu","type1": "electric","type2": null},
+		{"name": "Pikachu","type1": "electric","type2": null},
+		{"name": "Raichu","type1": "electric","type2": null},
+		{"name": "Fidough","type1": "fairy","type2": null},
+		{"name": "Dachsbun","type1": "fairy","type2": null},
+		{"name": "Slakoth","type1": "normal","type2": null},
+		{"name": "Vigoroth","type1": "normal","type2": null},
+		{"name": "Slaking","type1": "normal","type2": null},
+		{"name": "Bounsweet","type1": "grass","type2": null},
+		{"name": "Steenee","type1": "grass","type2": null},
+		{"name": "Tsareena","type1": "grass","type2": null},
+		{"name": "Smoliv","type1": "grass","type2": "normal"},
+		{"name": "Dolliv","type1": "grass","type2": "normal"},
+		{"name": "Arboliva","type1": "grass","type2": "normal"},
+		{"name": "Bonsly","type1": "rock","type2": null},
+		{"name": "Sudowoodo","type1": "rock","type2": null},
+		{"name": "Rockruff","type1": "rock","type2": null},
+		{"name": "Lycanroc (Midday)" ,"type1": "rock","type2": null},
+		{"name": "Lycanroc (Midnight)","type1": "rock","type2": null},
+		{"name": "Lycanroc (Dusk)","type1": "rock","type2": null},
+		{"name": "Rolycoly","type1": "rock","type2": null},
+		{"name": "Carkol","type1": "rock","type2": "fire"},
+		{"name": "Coalossal","type1": "rock","type2": "fire"},
+		{"name": "Shinx","type1": "electric","type2": null},
+		{"name": "Luxio","type1": "electric","type2": null},
+		{"name": "Luxray","type1": "electric","type2": null},
+		{"name": "Starly","type1": "normal","type2": "flying"},
+		{"name": "Staravia","type1": "normal","type2": "flying"},
+		{"name": "Staraptor","type1": "normal","type2": "flying"},
+		{"name": "Oricorio (Baile)","type1": "fire","type2": "flying"},
+		{"name": "Oricorio (Pom-Pom)","type1": "electric","type2": "flying"},
+		{"name": "Oricorio (Pa'u)","type1": "psychic","type2": "flying"},
+		{"name": "Oricorio (Sensu)","type1": "ghost","type2": "flying"},
 	]
 }
