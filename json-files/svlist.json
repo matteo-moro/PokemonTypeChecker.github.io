@@ -34,7 +34,7 @@
 		{"name": "Sunflora","type1": "grass","type2": null},
 		{"name": "Kricketot","type1": "bug","type2": null},
 		{"name": "Kricketune","type1": "bug","type2": null},
-		{"name": "Scatterbug","type1": "bug""type2": null},
+		{"name": "Scatterbug","type1": "bug","type2": null},
 		{"name": "Spewpa","type1": "bug","type2": null},
 		{"name": "Vivillon","type1": "bug","type2": "flying"},
 		{"name": "Combee","type1": "bug","type2": "flying"},
@@ -128,3 +128,4 @@
 		{"name": "Salazzle","type1": "poison","type2": "fire"},
 	]
 }
+
