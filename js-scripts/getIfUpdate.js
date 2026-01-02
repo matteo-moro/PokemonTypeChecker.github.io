@@ -5,7 +5,7 @@ request.onreadystatechange = function(response)
 	if (request.readyState === 4 && request.status === 200)
 	{
 		var data = JSON.parse(request.responseText);
-		if (!(kicakStorage.getItem("version") === data.version) || data.forceupdate === "true")
+		if (!(localStorage.getItem("version") === data.version) || data.forceupdate === "true")
 		{
 			if (storageAvailable("localStorage"))
 			{
@@ -47,3 +47,4 @@ function storageAvailable(type)
 	}
 
 }
+
