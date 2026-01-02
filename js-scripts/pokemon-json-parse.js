@@ -1,22 +1,67 @@
 var pokemonNameList = document.getElementById("pokemon-name-datalist");
-var request = new XMLHttpRequest();
+var requestList = new XMLHttpRequest();
+var requestVersion = new XMLHttpRequest();
 
-request.onreadystatechange = function(response) 
+requestVersion.onreadystatechange = function(responseVersion)
 {
-	if (request.readyState === 4) 
+	if (requestVersion.readyState === 4)
 	{
-		if (request.status === 200)
+		if (requestVersion.status === 200)
 		{
-			var jsonFile = JSON.parse(request.responseText);
-			jsonFile.pokemonlist.forEach(function(pokemon) 
+			var versionFile = JSON.parse(requestVersion.responseText);
+			if (!(localStorage.getItem("version") === versionFile.version) || versionFile.forceupdate === "true")
 			{
-				var option = document.createElement("option");
-				option.value = pokemon.name;
-				pokemonNameList.appendChild(option);
-			})
+				if (storageAvailable("localStorage"))
+				{
+					requestList.onreadystatechange = function (responseVersion)
+					{
+						if (requestList.version.readyState === 4)
+						{
+							if (requestList.status === 200)
+							{
+								localStorage.setItem("version", versionFile.version);
+								localStorage.setItem("pokemon-json", requestList.responseText);
+								
+								var pokemonJSON = JSON.parse(requestList.responseText);
+								pokemonJSON.pokemonlist.forEach(function(pokemon))
+								{
+									var option = document.createElement("option");
+									option.value = pokemon.name;
+									pokemonNameList.appendChild(option);
+								}
+								
+							}
+						}
+					}
+				}
+			}
+			
 		}
 	}
 }
 
-request.open("GET", "json-files/svlist.json", true);
-request.send();
+requestList.open("GET", "json-files/svlist.json", true);
+requestList.send();
+requestVersion.open("GET", "json-files/version.json", true);
+requestVersion.send()
+
+//directly taken from mdn docs since it should work fine
+function storageAvailable(type)
+{
+	let storage;
+	try
+	{
+		storage = window[type];
+		const x = "__storage_test__";
+		storage.setItem(x, x);
+		storage.removeItem(x);
+		return true;
+	} catch(e) {
+		return (
+			e instanceof DOMException &&
+			e.name === "QuotaExceededError" &&
+			storage &&
+			storage.lenght !== 0
+		);
+	}
+}
