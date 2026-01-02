@@ -43,7 +43,7 @@ requestVersion.onreadystatechange = function(responseVersion)
 requestList.open("GET", "json-files/svlist.json", true);
 requestList.send();
 requestVersion.open("GET", "json-files/version.json", true);
-requestVersion.send()
+requestVersion.send();
 
 //directly taken from mdn docs since it should work fine
 function storageAvailable(type)
