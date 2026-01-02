@@ -23,7 +23,7 @@ requestVersion.onreadystatechange = function(responseVersion)
 								localStorage.setItem("pokemon-json", requestList.responseText);
 								
 								var pokemonJSON = JSON.parse(requestList.responseText);
-								pokemonJSON.pokemonlist.forEach((pokemon) =>
+								pokemonJSON.pokemonlist.forEach(function(pokemon)
 								{
 									var option = document.createElement("option");
 									option.value = pokemon.name;
