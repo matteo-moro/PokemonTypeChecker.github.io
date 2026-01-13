@@ -5,17 +5,29 @@ window.pokemonInput4 = document.getElementById("pokemonSelect4");
 window.pokemonInput5 = document.getElementById("pokemonSelect5");
 window.pokemonInput6 = document.getElementById("pokemonSelect6");
 
-pokemonInput1.addEventListener("change", function () {checkValidity(pokemonInput1.value)});
-pokemonInput2.addEventListener("change", function () {checkValidity(pokemonInput2.value)});
-pokemonInput3.addEventListener("change", function () {checkValidity(pokemonInput3.value)});
-pokemonInput4.addEventListener("change", function () {checkValidity(pokemonInput4.value)});
-pokemonInput5.addEventListener("change", function () {checkValidity(pokemonInput5.value)});
-pokemonInput6.addEventListener("change", function () {checkValidity(pokemonInput6.value)});
+const pokemonTeamArray = [null,null,null,null,null,null];
 
-function checkValidity(inputContent)
+pokemonInput1.addEventListener("change", function () {validatePokemon(pokemonInput1.value, 1)});
+pokemonInput2.addEventListener("change", function () {validatePokemon(pokemonInput2.value, 2)});
+pokemonInput3.addEventListener("change", function () {validatePokemon(pokemonInput3.value, 3)});
+pokemonInput4.addEventListener("change", function () {validatePokemon(pokemonInput4.value, 4)});
+pokemonInput5.addEventListener("change", function () {validatePokemon(pokemonInput5.value, 5)});
+pokemonInput6.addEventListener("change", function () {validatePokemon(pokemonInput6.value, 6)});
+
+//TODO
+//check for repeated mons and for times when updates are not necessary
+function validatePokemon(inputContent, slotNumber)
 {
-    console.log(inputContent);
+    if(inputContent.length >= 3)
+    {
+        for(const pokemon of data.pokemonlist)
+        {
+            if(pokemon.name === inputContent)
+            {
+                pokemonTeamArray[slotNumber - 1] = pokemon;
+                console.log(pokemonTeamArray);
+                break;
+            }
+        }
+    }
 }
-
-//this code is supposed to eventually also do the type checking so i can avoid having to repeat parts of it somewhere else.
-//current plan is to get the names and if they are valid put the types inside of an array, then feed that array to another function to check types

@@ -1,11 +1,12 @@
 var request = new XMLHttpRequest();
+var data;
 window.pokemonDatalist = document.getElementById("pokemon-name-datalist");
 
 request.onreadystatechange = function(response)
 {
     if (request.readyState === 4 && request.status === 200)
     {
-        var data = JSON.parse(request.responseText);
+        data = JSON.parse(request.responseText);
         data.pokemonlist.forEach(function(pokemon)
         {
             var option = document.createElement("option");
