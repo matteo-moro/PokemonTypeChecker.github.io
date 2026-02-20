@@ -26,7 +26,6 @@ function validatePokemon(inputContent, slotNumber)
                 if(!pokemonTeamArray.includes(pokemon))
                 {
                     pokemonTeamArray[slotNumber - 1] = pokemon;
-                    console.log(pokemonTeamArray);
                     break;
                 }
             }
