@@ -17,6 +17,31 @@ const DARK_INDEX = 15;
 const STEEL_INDEX = 16;
 const FAIRY_INDEX = 17;
 
+class PokemonWeakness 
+{
+    constructor () 
+    {
+        this.normal_mult = 1;
+        this.fire_mult = 1;
+        this.water_mult = 1;
+        this.electric_mult = 1;
+        this.grass_mult = 1;
+        this.ice_mult = 1;
+        this.fighting_mult = 1;
+        this.poison_mult = 1;
+        this.ground_mult = 1;
+        this.flying_mult = 1;
+        this.psychic_mult = 1;
+        this.bug_mult = 1;
+        this.rock_mult = 1;
+        this.ghost_mult = 1;
+        this.dragon_mult = 1;
+        this.dark_mult = 1;
+        this.steel_mult = 1;
+        this.fairy_mult = 1;
+    }
+}
+
 function getWeaknessArray(pokemon)
 {
     const weaknessArray = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
