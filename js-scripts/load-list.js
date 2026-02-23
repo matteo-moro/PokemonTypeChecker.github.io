@@ -1,6 +1,6 @@
 var request = new XMLHttpRequest();
 var data;
-window.pokemonDatalist = document.getElementById("pokemon-name-datalist");
+const pokemonDatalist = document.getElementById("pokemon-name-datalist");
 
 request.onreadystatechange = function(response)
 {

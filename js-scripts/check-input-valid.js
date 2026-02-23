@@ -1,9 +1,9 @@
-window.pokemonInput1 = document.getElementById("pokemonSelect1");
-window.pokemonInput2 = document.getElementById("pokemonSelect2");
-window.pokemonInput3 = document.getElementById("pokemonSelect3");
-window.pokemonInput4 = document.getElementById("pokemonSelect4");
-window.pokemonInput5 = document.getElementById("pokemonSelect5");
-window.pokemonInput6 = document.getElementById("pokemonSelect6");
+const pokemonInput1 = document.getElementById("pokemonSelect1");
+const pokemonInput2 = document.getElementById("pokemonSelect2");
+const pokemonInput3 = document.getElementById("pokemonSelect3");
+const pokemonInput4 = document.getElementById("pokemonSelect4");
+const pokemonInput5 = document.getElementById("pokemonSelect5");
+const pokemonInput6 = document.getElementById("pokemonSelect6");
 
 const pokemonTeamArray = [null,null,null,null,null,null];
 
