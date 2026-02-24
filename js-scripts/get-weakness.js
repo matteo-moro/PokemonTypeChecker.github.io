@@ -25,6 +25,7 @@ class PokemonWeakness
 
 function getTypeMult(pokemon)
 {
+    if(pokemon === null){return null};
     const mult = new PokemonWeakness();
     const type1 = pokemon.type1;
     const type2 = pokemon.type2;
@@ -200,6 +201,5 @@ function getTypeMult(pokemon)
         mult.dark_mult /= 2;
         mult.dragon_mult = 0;
     }
-
     return mult;
 }
