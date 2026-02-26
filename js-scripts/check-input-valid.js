@@ -26,9 +26,15 @@ function validatePokemon(inputContent, slotNumber)
                 if(!pokemonTeamArray.includes(pokemon))
                 {
                     pokemonTeamArray[slotNumber - 1] = pokemon;
+                    updateTable();
                     break;
                 }
             }
         }
+    }
+    else if (inputContent === "")
+    {
+        pokemonTeamArray[slotNumber - 1] = null;
+        updateTable();
     }
 }
