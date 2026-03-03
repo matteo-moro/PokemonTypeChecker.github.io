@@ -1,5 +1,5 @@
-./js-scripts/node_modules
-./js-scripts/package-lock.json
-./js-scripts/package.json 
-./js-scripts/vitest.browser.config.js
-./js-scripts/vitest.config.js
+.js-scripts/node_modules/
+.js-scripts/package-lock.json
+.js-scripts/package.json 
+.js-scripts/vitest.browser.config.js
+.js-scripts/vitest.config.js
