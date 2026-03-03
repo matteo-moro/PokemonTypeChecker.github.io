@@ -1,3 +1,5 @@
+export { data };
+
 var request = new XMLHttpRequest();
 var data;
 window.pokemonDatalist = document.getElementById("pokemon-name-datalist");
